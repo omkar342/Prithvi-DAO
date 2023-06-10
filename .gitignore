@@ -1,0 +1,51 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore built JavaScript files
+dist
+
+# Ignore TypeScript build artifacts
+*.tsbuildinfo
+
+# Ignore logs
+logs
+*.log
+
+# Ignore vscode configuration files
+.vscode/*
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore npm lock file
+package-lock.json
+
+# Ignore Yarn lock file
+yarn.lock
+
+# Ignore editor configuration files
+.editorconfig
+.eslintrc
+.prettierrc
+
+# Ignore other build and dependency files
+/build
+/bower_components
+/out
+/typings
+
+# Ignore VS Code settings
+.vscode/settings.json
+
+# Ignore VS Code extensions
+.vscode/extensions.json
+
+# Ignore pnpm store (if using pnpm as package manager)
+.pnpm-store
+
+# Ignoring all the stored video files
+/uploads
